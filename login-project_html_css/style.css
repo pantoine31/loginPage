@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(assets/backGround.png);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+/* style for footer */
+footer {
+      background: #ccc;
+      border-top: 10px solid #808080;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+}
+
+
+
+
+
+footer p{
+  color: ##131010;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  padding: 16px 0;
+  font-weight: bold;
+}
+
+.LoginSection{
+    width: 320px;
+    height: 445px;
+    background: #000;
+    color: #fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 3px 25px;
+}
+
+.login{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+    left: calc(50% - 50px);
+
+}
+
+a{
+  color: #ffa53b;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #fff;
+
+
+}
+
+h1{
+  margin:0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 20px;
+  font-family: cursive;
+}
+
+.form-group p{
+  font-family:cursive;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#emailAddress ,
+#formPassword{
+  margin-left: 33px;
+}
+
+.LoginSection input[type="email"],
+.LoginSection input[type="password"]{
+
+    border:none;
+    border-bottom: 1px solid #948cdd;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.Lost{
+  margin-top: -20px;
+}
+
+
+
+
+.action input[type="button"]{
+  border:none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.action input[type="button"]:hover{
+  cursor: pointer;
+  background: #9d6767;
+  color: white;
+
+}
